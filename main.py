@@ -33,4 +33,4 @@ async def on_message(message: disnake.Message):
 @bot.slash_command()
 async def tesst(ctx):
     await ctx.send("It's ok.")
-bot.run("MTEwMjk0MjIwNTEyOTI2OTM5OQ.GGM0Rm.tdvqIwlUjiVIrHSypx-L-4NfxhjsqYby_gJttU")
+bot.run("MTEwMjk0MjIwNTEyOTI2OTM5OQ.GM34F-.NO6AYskqdR2FCEVcqnFP1DgxxaQ0GAQ2bN05_Y")
