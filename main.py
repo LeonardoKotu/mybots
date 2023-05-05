@@ -30,5 +30,7 @@ async def on_message(message: disnake.Message):
         if message.attachments:
            await message.create_thread(name=f"Веточка", auto_archive_duration=10080)
 
-
+@bot.slash_command()
+async def tesst(ctx):
+    await ctx.send("It's ok.")
 bot.run("MTEwMjk0MjIwNTEyOTI2OTM5OQ.GGM0Rm.tdvqIwlUjiVIrHSypx-L-4NfxhjsqYby_gJttU")
